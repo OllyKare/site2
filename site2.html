@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Страница с фоном и картинкой</title>
+    <style> body { background-image: url('back2.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; height: 100vh;} 
+
+    .container { text-align: center; } 
+    
+    h1 {font-size: 50px;
+    font-weight: normal;
+    cursor: pointer;
+    text-shadow: -1px -1px #FFF,
+               -2px -2px #FFF,
+               -1px 1px #FFF,
+               -2px 2px #FFF,
+               1px 1px #FFF,
+               2px 2px #FFF,
+               1px -1px #FFF,
+               2px -2px #FFF,
+               -3px -3px 2px #BBB,
+               -3px 3px 2px #BBB,
+               3px 3px 2px #BBB,
+               3px -3px 2px #BBB;
+  color: rgb(98, 0, 255);
+  transition: all 1s;
+  }
+  H1:hover {
+    color: yellowgreen;} 
+    a img { cursor: pointer; transition: transform 0.2s ease-in-out; } 
+    a img:hover { transform: scale(1.1); } </style>
+</head>
+<body>
+    <div class="container">
+        <h1>КЛИКНИ НА КАРТИНКУ!!!</h1>
+        <a href="https://ollykare.github.io/Caramel-Dreams/">
+            <img src="ура.jpg" alt="Кликните сюда!" width="800px"/>
+        </a>
+    </div>
+</body>
+</html>
